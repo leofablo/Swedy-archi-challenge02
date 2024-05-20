@@ -19,7 +19,7 @@ const Page = () => {
       <div className="pt-[80px] px-[50px]">
         <div className="flex flex-col pt-[80px]">
           <h1 className="text-[50px] font-bold">We design a lot of things</h1>
-          <p className="text-[22px]">Here are some of our favorites…</p>
+          <p className="text-[22px]">Here are some of our favorites</p>
         </div>
       </div>
 
@@ -104,7 +104,7 @@ const Page = () => {
             <div className="description mb-4">
               <p>
                 We invite you to explore our portfolio and see for yourself the
-                breadth and depth of our work. Whether you're looking to build a
+                breadth and depth of our work. Whether you&aqos;re looking to build a
                 new landmark or restore a piece of history, our architecture
                 studio is here to turn your dreams into reality.
               </p>
