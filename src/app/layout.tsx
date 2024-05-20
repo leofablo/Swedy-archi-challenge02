@@ -6,7 +6,7 @@ import React from 'react'
 import Logo from "../app/../../public/Logo.svg"
 import Footer from "@/components/footer/Footer";
 
-export const navListName = [
+ const navListName = [
   { navListName: "About us", url: "/aboutus" },
   { navListName: "Projects", url: "/projects" },
   { navListName: "Services", url: "/services" },
