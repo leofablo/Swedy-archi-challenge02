@@ -2,8 +2,7 @@ import React from "react";
 import Image from "next/image";
 import About from "@/Images/aboutus.webp";
 import SeparatorContent from "@/components/separator/separator";
-import Teams from "@/components/teams/Teams";
-import Ceo from "@/Images/Ceo.jpg";
+import about from "@/Images/aboutus-2.webp"
 import Team from "@/components/teams/Teams";
 
 const Page = () => {
@@ -13,7 +12,7 @@ const Page = () => {
         <h1 className="font-bold">About Us</h1>
         <div className="flex flex-col md:flex-row gap-10">
           <div className=" w-full md:w-2/4">
-            <Image className="w-full" src={About} alt=""></Image>
+            <Image className="w-full" src={about} alt=""></Image>
           </div>
           <div className="md:w-[500px] md:text-wrap">
             <p className="text-[20px] pt-4 pb-4 md:pt-0">
