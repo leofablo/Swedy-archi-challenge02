@@ -4,6 +4,9 @@
 import React, { useState } from "react";
 import swedybg from "@/Images/Swedyarcheibg.webp";
 import brutalist from "@/Images/brutalis.webp";
+import buildingBlue from "@/Images/building-blue.webp"
+import buildingMetal from "@/Images/building-metal.webp"
+import clearskySingapore from "@/Images/clearsky-singapore.webp"
 
 
 
@@ -44,7 +47,7 @@ const Page = () => {
 
         <div
           className="h-[400px] bg-cover bg-center relative transition duration-300 ease-in-out flex items-center justify-center overflow-hidden group"
-          style={{ backgroundImage: `url(${swedybg.src})` }}
+          style={{ backgroundImage: `url(${buildingBlue.src})` }}
         >
           <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-125"></div>
           <button
@@ -60,7 +63,7 @@ const Page = () => {
 
         <div
           className="h-[400px] bg-cover bg-center relative transition duration-300 ease-in-out flex items-center justify-center overflow-hidden group"
-          style={{ backgroundImage: `url(${swedybg.src})` }}
+          style={{ backgroundImage: `url(${buildingMetal.src})` }}
         >
           <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-125"></div>
           <button
@@ -76,7 +79,7 @@ const Page = () => {
 
         <div
           className="h-[400px] bg-cover bg-center relative transition duration-300 ease-in-out flex items-center justify-center overflow-hidden group"
-          style={{ backgroundImage: `url(${brutalist.src})` }}
+          style={{ backgroundImage: `url(${clearskySingapore.src})` }}
         >
           <div className="absolute inset-0 transition-transform duration-300 ease-in-out group-hover:scale-125"></div>
           <button

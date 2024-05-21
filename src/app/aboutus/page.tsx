@@ -4,11 +4,12 @@ import About from "@/Images/aboutus.webp";
 import SeparatorContent from "@/components/separator/separator";
 import Teams from "@/components/teams/Teams";
 import Ceo from "@/Images/Ceo.jpg";
+import Team from "@/components/teams/Teams";
 
 const Page = () => {
   return (
     <div className="bg-white pt-[80px] gap-10 flex flex-col">
-      <div className=" flex flex-col gap-4 pt-[80px] px-[50px] md:text-[150px] text-[50px]">
+      <div className=" flex flex-col gap-4 pt-[80px] px-[50px] md:text-[80px] text-[50px]">
         <h1 className="font-bold">About Us</h1>
         <div className="flex flex-col md:flex-row gap-10">
           <div className=" w-full md:w-2/4">
@@ -25,7 +26,8 @@ const Page = () => {
               <div className="mt-4">
                 <p className="text-[18px] pt-2 ">
                   1990 - The Beginning. <br className="mt-2" />
-                  <p>
+                  </p>
+                  <p className="text-[18px]">
                     {" "}
                     In the early 1990s, Leo Fablos established Swedy Archei with
                     a mission to create iconic structures that stand the test of
@@ -33,13 +35,14 @@ const Page = () => {
                     reflecting a commitment to meticulous design and superior
                     craftsmanship.
                   </p>
-                </p>
+                
               </div>
 
               <div className="mt-4">
                 <p className="text-[18px] pt-2 ">
                   2010 - Global Recognition. <br className="mt-2" />
-                  <p>
+                  </p>
+                  <p className="text-[18px]">
                     {" "}
                     As our portfolio grew, so did our international presence.
                     The 2010s were characterized by a series of high-profile
@@ -49,13 +52,14 @@ const Page = () => {
                     collaborated with leading developers and local governments,
                     bringing our expertise to new and challenging environments.
                   </p>
-                </p>
+                
               </div>
 
               <div className="mt-4">
                 <p className="text-[18px] pt-2 ">
                   2020 - A Legacy of Innovation <br className="mt-2" />
-                  <p>
+                  </p>
+                  <p className="text-[18px]">
                     {" "}
                     Today, Swedy Archei stands as a leader in the field of
                     architecture. We have completed over 100 projects, including
@@ -64,7 +68,7 @@ const Page = () => {
                     integrating cutting-edge technology and sustainable
                     practices into every project.
                   </p>
-                </p>
+                
               </div>
             </div>
             {/* content 2  */}
@@ -86,7 +90,7 @@ const Page = () => {
         sectionName="Team"
         sectionDescription="Our leadership team is composed of practice leaders in each specialty area and corporate operations. Our project teams are carefully chosen for their ability to serve and innovate within the parameters set by our clients"
       />
-      <Teams photo={Ceo} name="Muklis" jobtitle="Founder, CEO" />
+      <Team />
     </div>
   );
 };

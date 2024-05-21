@@ -17,21 +17,21 @@ const itemProject: ProjectItem[] = [
     category: "Science & Labs",
     image: galery1,
     description:
-      "Vestibulum tempus imperdiet sem ac porttitor. Vivamus pulvinar commodo orci, suscipit porttitor velit elementum non. Fusce nec pellentesque erat, id lobortis nunc. Donec dui leo, ultrices quis turpis nec, sollicitudin sodales tortor.",
+      "Architectural marvel that stands as a testament to innovation and design excellence. With its striking façade and modern amenities, Allure Scientific redefines urban living. Discover a harmonious blend of functionality and aesthetics, where every detail is meticulously crafted to enhance your lifestyle. Welcome to Allure Scientific, where luxury meets sophistication, setting new standards in contemporary living.",
   },
   {
     title: "Relic Refuge",
     category: "Science & Labs",
     image: relicrefuge,
     description:
-      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Experience the epitome of architectural brilliance with Relic Refuge. This iconic structure combines cutting-edge design with sustainable features, creating a space that inspires and uplifts. From its sleek exterior to its thoughtfully curated interiors, every aspect of Relic Refuge exudes elegance and sophistication, setting a new standard for urban living",
   },
   {
     title: "Vintage Valhalla",
     category: "Science & Labs",
     image: vintagevalhala,
     description:
-      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Step into a world of luxury and refinement at Vintage Valhalla. Boasting stunning views and unparalleled amenities, this architectural masterpiece offers a sanctuary amidst the bustling cityscape. With meticulous attention to detail and a commitment to quality, Vintage Valhalla provides a haven where residents can indulge in the ultimate urban lifestyle.",
   },
 ];
 
