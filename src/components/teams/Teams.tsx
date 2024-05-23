@@ -36,7 +36,7 @@ const Team: React.FC = () => {
     <div className="pt-20 px-12">
       <div className="text-center mb-12">
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 ">
         {users.map((user, index) => (
           <div key={index} className="bg-gray-100 rounded-lg overflow-hidden p-4 text-center">
             <img src={user.picture.large} alt={`${user.name.first} ${user.name.last}`} className="w-32 h-32 rounded-full mx-auto mb-4" />

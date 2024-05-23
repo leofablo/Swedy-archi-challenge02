@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
 
   return (
     <>
-      <div className="fixed w-full justify-between px-[630px] ">
+      <div className="fixed w-full justify-between ml-auto right-0">
         <button
           onClick={() => setMenu(!isMenuOpen)}
           className="md:hidden text-3xl p-2 focus:outline-none justify-between"
@@ -58,7 +58,7 @@ const HamburgerMenu = () => {
               </Link>
               <Link
                 className="font-bold"
-                href={"contact"}
+                href={"cont"}
                 onClick={() => setMenu(false)}
               >
                 Contact

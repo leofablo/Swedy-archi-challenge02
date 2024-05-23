@@ -5,18 +5,12 @@ import SeparatorContent from "@/components/separator/separator";
 import React from "react";
 import Large from "@/Images/Large.jpg";
 import SmallImg from "@/Images/small-galery.jpg";
-import GalerySmall from "@/components/galery-section/small-galery/GalerySmall";
-import LargeProjectSection from "@/components/latest-project-section/LargeProjectSection/LargeProjectSection";
-import LargeProject from "@/Images/Allure-scientific.webp";
-import PrimaryButton from "@/components/button/PrimaryButton";
-import NarrowIcon from "@/Images/arrow-narrow-up-right.svg";
-import Teams from "@/components/teams/Teams";
-import Ceo from "@/Images/Ceo.jpg"
+
 import Expertise from "@/components/expertise/expertise";
-import GalerySection from "@/components/galery-section/galery-section/GalerySection";
+
 import Banner from "@/components/banner/banner";
 import Testimonials from "@/components/testimonials/Testimonials";
-import Footer from "@/components/footer/Footer";
+
 import LatestProject from "@/components/latestproject/latestProject";
 import Team from "@/components/teams/Teams";
 
@@ -104,7 +98,7 @@ const HomePage = () => {
    
 
       </div>
-      <Footer />
+      
 
       
 

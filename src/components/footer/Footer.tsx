@@ -17,20 +17,20 @@ const Footer = () => {
           <div className='flex flex-col px-[50px] gap-10 md:flex-row md:justify-end md:mb-[50px] mb-10'>
           <div className='flex flex-col gap-1 pt-4 border-t-2 mt-10'>
             <h1 className='text-[40px] mb-2'>Canada</h1>
-            <p className='text-[22px] text-wrap w-[500px] text-slate-500'>Vancouver, 17S Main Street 1453, Canada TR 34423</p>
+            <p className='text-[22px] w-full text-wrap md:w-[500px] text-slate-500'>Vancouver, 17S Main Street 1453, Canada TR 34423</p>
             <a className='text-[22px] underline-offset-8 text-slate-800' href="#">canada@swedy-archei.com</a>
           </div>
           <div className='flex flex-col gap-1 pt-4 border-t-2 mt-10'>
             <h1 className='text-[40px] mb-2'>Stockholm</h1>
-            <p className='text-[22px] text-wrap w-[500px] text-slate-500'>Sweden, 17S Main Street 1453, Stockholm TR 34423</p>
+            <p className='text-[22px] text-wrap w-full md:w-[500px] text-slate-500'>Sweden, 17S Main Street 1453, Stockholm TR 34423</p>
             <a className='text-[22px] underline-offset-8 text-slate-800' href="#">uppsala@swedy-archei.com</a>
           </div>
 
         </div>
         
-          <div className='flex flex-col  w-full gap-10 text-gray-700  px-[50px]  pt-4 pb-4 md:justify-start justify-center items-center'>
-            <div className='flex flex-col md:flex-row'>
-               <ul className='flex flex-row gap-10 text-[18px] md:text-[16px]'>
+          <div className='flex flex-col w-full gap-10 text-gray-700 pt-4 pb-4 md:justify-start justify-center items-center px-[50px]'>
+            <div className='flex flex-col md:flex-row w-full'>
+               <ul className='flex flex-col md:flex-row md:gap-10 gap-2 text-[18px] md:text-[16px]'>
               <li className='hover:underline hover:text-black pb-4'>
                 <a href="#">Facebook</a>
                 </li>
